@@ -1,4 +1,4 @@
-/* |||||||||| AREA SET |||||||||| */
+/* |||||||||| CONTENITORE |||||||||| */
 .contenitore80
 {
   width: 80%;
@@ -25,6 +25,7 @@
   margin: auto;
 }
 
+/* |||||||||| CONTENITORE |||||||||| */
 .left-text
 {
   text-align: left;

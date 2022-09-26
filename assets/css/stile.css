@@ -28,15 +28,31 @@ a
 
 
 /* |||||||||| HEADER |||||||||| */
-
+header
+{
+  height: 30vw;
+  background-color: #b5d0e6;
+}
 
 
 
 
 
 /* |||||||||| NAV |||||||||| */
-
-
+nav
+{
+  position: fixed;
+  width: 100vw;
+  background-color: white;
+}
+nav ul
+{
+  padding: 1vw;
+}
+nav li
+{
+  margin-right: 1vw;
+}
 
 
 
