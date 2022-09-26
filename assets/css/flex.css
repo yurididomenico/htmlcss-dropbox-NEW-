@@ -1,0 +1,95 @@
+/* |||||||||| AREA FLEX |||||||||| */
+.flex-mode
+{
+  display: flex;
+}
+.wrap
+{
+  flex-wrap: wrap;
+}
+.d-row
+{
+  flex-direction: row;
+}
+.d-col
+{
+  flex-direction: column;
+}
+.justify-start
+{
+  justify-content: flex-start;
+}
+.align-start
+{
+  align-items: flex-start;
+}
+.justify-center
+{
+  justify-content: center;
+}
+.align-center
+{
+  align-items: center;
+}
+.justify-end
+{
+  justify-content: flex-end;
+}
+.align-end
+{
+  align-items: flex-end;
+}
+.s-between
+{
+  justify-content: space-between;
+}
+.s-around
+{
+  justify-content: space-around;
+}
+.align-content-center
+{
+  align-content: center;
+}
+.stretch1
+{
+  justify-content: stretch;
+}
+
+
+.f-basis-1
+{
+  flex-basis: 100%;
+}
+.f-basis-2
+{
+  flex-basis: calc(100% / 2);
+}
+.f-basis-3
+{
+  flex-basis: calc(100% / 3);
+}
+.f-basis-5
+{
+  flex-basis: calc(100% / 5);
+}
+
+
+.f-basis-40
+{
+  flex-basis: 40%;
+}
+.f-basis-60
+{
+  flex-basis: 60%;
+}
+.f-basis-90
+{
+  flex-basis: 90%;
+}
+
+
+
+
+
+
