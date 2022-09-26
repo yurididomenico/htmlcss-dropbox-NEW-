@@ -9,7 +9,6 @@
   list-style-type: none;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  transition-duration: 300ms;
 }
 img
 {
@@ -21,6 +20,10 @@ a
 }
 
 /* |||||||||| INIZIO |||||||||| */
+.btn
+{
+  padding: 0.5vw 1vw;
+}
 
 
 
@@ -45,15 +48,15 @@ nav
   width: 100vw;
   background-color: white;
 }
-nav ul
+nav a
 {
-  padding: 1vw;
+  padding: 1.5vw 0;
 }
 nav li
 {
-  margin-right: 1vw;
+  margin-left: 1.5vw;
+  padding: 1.5vw 0;
 }
-
 
 
 
@@ -73,15 +76,29 @@ nav li
 
 /* |||||||||| HOVER |||||||||| */
 
+/* ---------- NAV ---------- */
+nav
+{
+  padding: 0 0.5vw 0 0;
+}
+nav a:hover:not(nav .logo, nav .btn)
+{
+  border-bottom: 3px solid black;
+}
 
+nav a:hover:not(nav .btn)
+{
+  border-bottom: 3px solid black;
+}
+.btn:hover
+{
+  background-color: rgb(0, 0, 184);
+}
 
 
 
 
 /* |||||||||| AREA TEST |||||||||| */
-
-
-
 
 
 
