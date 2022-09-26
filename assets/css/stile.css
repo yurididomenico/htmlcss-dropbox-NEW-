@@ -33,13 +33,42 @@ a
 /* |||||||||| HEADER |||||||||| */
 header
 {
-  height: 30vw;
   background-color: #b5d0e6;
+  padding: 9vw 0 0;
 }
-
-
-
-
+header h1
+{
+  font-size: 5rem;
+  padding-bottom: 3vw;
+}
+header p,
+header > div > div > div > div:not(div:last-child)
+{
+  margin-bottom: 2vw;
+}
+header p
+{
+  font-size: 1rem;
+  line-height: 1.1vw;
+}
+.fa-arrow-down
+{
+  font-size: 3rem;
+  margin: 0;
+}
+.contenitore-immagine 
+{
+  position: relative;
+}
+header img
+{
+  width: 100%;
+  position: absolute;
+}
+.freccia-giu
+{
+  margin: 4vw 0 0.5vw;
+}
 
 /* |||||||||| NAV |||||||||| */
 nav
